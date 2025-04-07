@@ -18,6 +18,6 @@
         "prettier-config"
     ],
     "peerDependencies": {
-        "prettier": "^3.5.3"
+        "prettier": ">=3"
     }
 }

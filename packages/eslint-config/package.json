@@ -1,0 +1,26 @@
+{
+    "name": "@enihsyou/eslint-config",
+    "version": "0.0.1",
+    "description": "Shared ESLint config based on enihsyou's preferences",
+    "author": {
+        "name": "enihsyou",
+        "email": "enihsyou@gmail.com"
+    },
+    "repository": "github:enihsyou/shared-config",
+    "type": "module",
+    "main": "eslint-config.mjs",
+    "files": [
+        "eslint-config.mjs"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "eslint-config"
+    ],
+    "peerDependencies": {
+        "eslint": ">=9"
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^10.1.1"
+    }
+}
