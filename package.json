@@ -13,6 +13,7 @@
     },
     "prettier": "@enihsyou/prettier-config",
     "devDependencies": {
-        "@enihsyou/prettier-config": "workspace:*"
+        "@enihsyou/prettier-config": "workspace:*",
+        "prettier": "3.5.3"
     }
 }
