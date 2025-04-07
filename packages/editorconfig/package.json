@@ -1,0 +1,14 @@
+{
+    "name": "@enihsyou/editorconfig",
+    "version": "0.0.1",
+    "description": "Shared EditorConfig based on enihsyou's preferences",
+    "type": "module",
+    "main": "editorconfig",
+    "files": [
+        "editorconfig"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "editorconfig"
+    ]
+}

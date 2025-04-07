@@ -1,0 +1,3 @@
+packages:
+  - "packages/editorconfig"
+  - "packages/prettier-config"

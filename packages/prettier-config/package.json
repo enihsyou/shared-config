@@ -1,0 +1,23 @@
+{
+    "name": "@enihsyou/prettier-config",
+    "version": "0.0.1",
+    "description": "Shared prettier config based on enihsyou's preferences",
+    "author": {
+        "name": "enihsyou",
+        "email": "enihsyou@gmail.com"
+    },
+    "repository": "github:enihsyou/shared-config",
+    "type": "module",
+    "main": "prettier-config.mjs",
+    "files": [
+        "prettier-config.mjs"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "prettier",
+        "prettier-config"
+    ],
+    "peerDependencies": {
+        "prettier": "^3.5.3"
+    }
+}
