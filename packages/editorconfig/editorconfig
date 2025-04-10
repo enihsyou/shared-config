@@ -1,5 +1,6 @@
 # EditorConfig is awesome: https://editorconfig.org
 # This file originate from https://github.com/enihsyou/shared-config/blob/main/packages/editorconfig/.editorconfig
+# code: language=editorconfig
 
 # top-most EditorConfig file
 root = true
@@ -32,3 +33,8 @@ indent_size = 2                  # 常遇很长的行
 
 [*.{md,markdown}]
 trim_trailing_whitespace = false # 保留行尾空白用于换行
+
+[.reg]
+# https://gist.github.com/SalviaSage/8eba542dc27eea3379a1f7dad3f729a0
+charset = utf-16le
+end_of_line = crlf

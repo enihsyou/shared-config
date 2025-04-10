@@ -17,7 +17,7 @@ const config = {
     useTabs: false,
     // （Prettier默认）反正分号是自动添加的不费事
     semi: true,
-    // （Prettier默认）双引号看习惯了
+    // （Prettier默认）双引号看习惯了，输入时允许少按 shift
     singleQuote: false,
     // （Prettier默认）允许尾随逗号方便修改是好文明
     trailingComma: "all",

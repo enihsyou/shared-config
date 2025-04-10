@@ -5,10 +5,14 @@
     "type": "module",
     "main": "editorconfig",
     "files": [
-        "editorconfig"
+        "editorconfig",
+        "install.mjs"
     ],
     "license": "MIT",
     "keywords": [
         "editorconfig"
-    ]
+    ],
+    "scripts": {
+        "postinstall": "node install.mjs"
+    }
 }

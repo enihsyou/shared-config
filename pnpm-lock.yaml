@@ -29,12 +29,8 @@ importers:
         specifier: '>=9'
         version: 9.24.0
       eslint-config-prettier:
-        specifier: ^10.1.1
+        specifier: '>=10.1.1'
         version: 10.1.1(eslint@9.24.0)
-    devDependencies:
-      '@eslint/js':
-        specifier: ^9.24.0
-        version: 9.24.0
 
   packages/prettier-config:
     dependencies:
