@@ -4,16 +4,10 @@
 
 ## 包含模块
 
-| Tool           | Folder                   | Package                   | Publish                                                      |
-|----------------|--------------------------|---------------------------|--------------------------------------------------------------|
-| [EditorConfig] | [packages/editor-config] | `@enihsyou/editor-config` | [![NPM Version][npm-editor-config-badge]][npm-editor-config] |
-
-<!-- @formatter:off JetBrains IDE 会添加不必要的空行 -->
-[EditorConfig]: https://editorconfig.org
-[packages/editor-config]: ./packages/editor-config
-[npm-editor-config-badge]: https://img.shields.io/npm/v/%40enihsyou%2Feditor-config?logo=npm
-[npm-editor-config]: https://www.npmjs.com/package/@enihsyou/editor-config
-<!-- @formatter:on -->
+| Tool                                     | Folder                                                 | Package                                                                                | Publish                                                                     |
+|------------------------------------------|--------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [EditorConfig](https://editorconfig.org) | [packages/editor-config](./packages/editor-config)     | [`@enihsyou/editor-config`](https://www.npmjs.com/package/@enihsyou/editor-config)     | ![npm](https://img.shields.io/npm/v/%40enihsyou%2Feditor-config?logo=npm)   |
+| [Prettier](https://prettier.io)          | [packages/prettier-config](./packages/prettier-config) | [`@enihsyou/prettier-config`](https://www.npmjs.com/package/@enihsyou/prettier-config) | ![npm](https://img.shields.io/npm/v/%40enihsyou%2Fprettier-config?logo=npm) |
 
 ## 相关项目
 

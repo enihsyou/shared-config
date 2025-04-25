@@ -38,4 +38,5 @@ const config = {
     // 其余的使用默认值
 };
 
+// noinspection JSUnusedGlobalSymbols
 export default config;

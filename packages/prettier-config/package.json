@@ -1,22 +1,29 @@
 {
     "name": "@enihsyou/prettier-config",
     "version": "0.0.1",
-    "description": "Shared prettier config based on enihsyou's preferences",
-    "author": {
-        "name": "enihsyou",
-        "email": "enihsyou@gmail.com"
-    },
-    "repository": "github:enihsyou/shared-config",
-    "type": "module",
-    "main": "prettier-config.mjs",
-    "files": [
-        "prettier-config.mjs"
-    ],
-    "license": "MIT",
+    "description": "A shareable prettier config based on enihsyou's preferences",
     "keywords": [
         "prettier",
         "prettier-config"
     ],
+    "homepage": "https://github.com/enihsyou/shared-config/tree/main/packages/prettier-config",
+    "bugs": "https://github.com/enihsyou/shared-config/issues",
+    "license": "MIT",
+    "author": {
+        "name": "enihsyou",
+        "email": "enihsyou@gmail.com"
+    },
+    "type": "module",
+    "main": "prettier-config.mjs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/enihsyou/shared-config.git",
+        "directory": "packages/prettier-config"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
     "peerDependencies": {
         "prettier": ">=3"
     }

@@ -6,7 +6,7 @@
 
 请在项目的终端中运行以下命令安装发布版本。
 
-```bash
+```shell
 npm install --save-dev @enihsyou/editor-config
 ```
 
@@ -29,13 +29,13 @@ curl -L https://raw.githubusercontent.com/enihsyou/shared-config/main/packages/e
 
 - 从包中复制 `.editorconfig` 文件到你的当前目录：
 
-```bash
+```shell
 cp node_modules/@enihsyou/editor-config/.editorconfig .
 ```
 
 - 执行 `install.mjs` 脚本，复制到你的当前目录：
 
-```bash
+```shell
 node node_modules/@enihsyou/editor-config/install.mjs
 ```
 

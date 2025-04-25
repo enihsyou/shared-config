@@ -18,10 +18,29 @@ pnpm add --save-dev github:enihsyou/shared-config#path:/packages/prettier-config
 
 ## 使用方法
 
-安装后，在您的 **package.json** 文件中添加一个键以应用本设定。
+安装后，在 `package.json` 文件中添加一个键以应用本设定。
 
 ```json
-"prettier": "@enihsyou/prettier-config"
+{
+    "prettier": "@enihsyou/prettier-config"
+}
+```
+
+如果想基于本配置进行修改，可以在 `prettier.config.mjs` 中根据需要扩展
+
+```javascript
+import enihsyou from "@enihsyou/prettier-config";
+
+/**
+ * @see https://prettier.io/docs/configuration
+ * @type {import("prettier").Config}
+ */
+const config = {
+    ...enihsyou,
+    // ... your own config
+};
+
+export default config;
 ```
 
 有关如何配置 Prettier 的更多信息，请参阅 [Prettier - Using a Shareable Config](https://prettier.io/docs/sharing-configurations#using-a-shareable-config)。
