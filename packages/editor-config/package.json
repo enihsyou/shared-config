@@ -20,6 +20,7 @@
         "directory": "packages/editor-config"
     },
     "publishConfig": {
+      "access": "public",
       "registry": "https://registry.npmjs.org/"
     },
     "scripts": {

@@ -7,19 +7,19 @@
 请在项目的终端中运行以下命令安装发布版本。
 
 ```bash
-npm install --save-dev @enihsyou/editorconfig
+npm install --save-dev @enihsyou/editor-config
 ```
 
 或者运行以下命令引用 GitHub 上的最新版本。
 
 ```shell
-pnpm add --save-dev github:enihsyou/shared-config#path:/packages/editorconfig
+pnpm add --save-dev github:enihsyou/shared-config#path:/packages/editor-config
 ```
 
 或者直接从 GitHub 上以文件形式下载最新版本。
 
 ```shell
-curl -L https://raw.githubusercontent.com/enihsyou/shared-config/main/packages/editorconfig/.editorconfig -o .editorconfig
+curl -L https://raw.githubusercontent.com/enihsyou/shared-config/main/packages/editor-config/.editorconfig -o .editorconfig
 ```
 
 ## 补充说明
