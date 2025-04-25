@@ -13,7 +13,6 @@ indent_size = 4                  # 除指定都使用4个空格缩进，适当�
 indent_style = space             # 使用空格进行缩进
 insert_final_newline = true      # 文件末尾插入空行
 trim_trailing_whitespace = true  # 去除行尾空白字符
-space_around_operators = hybrid  # 操作符两边添加空格
 
 # 特定文件类型的设置
 [Makefile]
@@ -25,16 +24,16 @@ end_of_line = crlf               # Windows批处理文件使用CRLF行尾
 [*.{yml,yaml}]
 indent_size = 2                  # 社区习惯
 
-[*.html]
+[*.{html,xml,svg}]
 indent_size = 2                  # 常遇很长的行
 
-[*.{xml,svg}]
-indent_size = 2                  # 常遇很长的行
+[{*json,*.json{5,c,l}}]
+indent_size = 2                  # 数据文件适当扩大内容显示范围
 
 [*.{md,markdown}]
 trim_trailing_whitespace = false # 保留行尾空白用于换行
 
-[.reg]
+[*.reg]
 # https://gist.github.com/SalviaSage/8eba542dc27eea3379a1f7dad3f729a0
 charset = utf-16le
 end_of_line = crlf

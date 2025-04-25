@@ -1,0 +1,28 @@
+{
+    "name": "@enihsyou/editor-config",
+    "version": "0.0.1",
+    "description": "A shareable .editorconfig file based on enihsyou's preferences",
+    "keywords": [
+        "editorconfig"
+    ],
+    "homepage": "https://github.com/enihsyou/shared-config/tree/main/packages/editor-config",
+    "bugs": "https://github.com/enihsyou/shared-config/issues",
+    "license": "MIT",
+    "author": {
+        "name": "enihsyou",
+        "email": "enihsyou@gmail.com"
+    },
+    "type": "module",
+    "main": "install.mjs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/enihsyou/shared-config.git",
+        "directory": "packages/editor-config"
+    },
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org/"
+    },
+    "scripts": {
+        "postinstall": "node install.mjs"
+    }
+}

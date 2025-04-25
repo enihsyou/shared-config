@@ -1,4 +1,4 @@
 packages:
-  - "packages/editorconfig"
+  - "packages/editor-config"
   - "packages/eslint-config"
   - "packages/prettier-config"
