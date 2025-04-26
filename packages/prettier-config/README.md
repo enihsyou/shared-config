@@ -1,6 +1,6 @@
 # @enihsyou/prettier-config
 
-<p style="text-align: center;">
+<p align="center">
   <a href="README.md">English</a> •
   <a href="README.zh-CN.md">简体中文 (Simplified Chinese)</a>
 </p>
