@@ -5,15 +5,15 @@
   <a href="README.zh-CN.md">简体中文 (Simplified Chinese)</a>
 </p>
 
-This is a set of shareable ESLint configurations for controlling code quality in your project.
+这是一组可共享的 ESLint 配置，用于控制项目中的编码质量。
 
-## Installation
+## 安装
 
 ```bash
 npm install --save-dev @enihsyou/eslint-config
 ```
 
-Or run the following command to reference the latest version from GitHub:
+或者运行以下命令引用 GitHub 上的最新版本。
 
 ```shell
 pnpm add --save-dev github:enihsyou/shared-config#path:/packages/eslint-config

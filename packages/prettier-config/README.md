@@ -1,24 +1,29 @@
 # @enihsyou/prettier-config
 
-这是一个可共享的 Prettier 配置，用于统一项目中的编码风格。
+<p style="text-align: center;">
+  <a href="README.md">English</a> •
+  <a href="README.zh-CN.md">简体中文 (Simplified Chinese)</a>
+</p>
 
-## 安装
+This is a shareable Prettier configuration for unifying code style in your project.
 
-请在项目的终端中运行以下命令安装发布版本。
+## Installation
+
+Please run the following command in your project terminal to install the published version:
 
 ```shell
 npm install --save-dev @enihsyou/prettier-config
 ```
 
-或者运行以下命令引用 GitHub 上的最新版本。
+Or run the following command to reference the latest version from GitHub:
 
 ```shell
 pnpm add --save-dev github:enihsyou/shared-config#path:/packages/prettier-config
 ```
 
-## 使用方法
+## Usage
 
-安装后，在 `package.json` 文件中添加一个键以应用本设定。
+After installation, add a key in your `package.json` file to apply this configuration:
 
 ```json
 {
@@ -26,7 +31,7 @@ pnpm add --save-dev github:enihsyou/shared-config#path:/packages/prettier-config
 }
 ```
 
-如果想基于本配置进行修改，可以在 `prettier.config.mjs` 中根据需要扩展
+If you want to extend this configuration, you can do so in `prettier.config.mjs` as needed:
 
 ```javascript
 import enihsyou from "@enihsyou/prettier-config";
@@ -43,4 +48,17 @@ const config = {
 export default config;
 ```
 
-有关如何配置 Prettier 的更多信息，请参阅 [Prettier - Using a Shareable Config](https://prettier.io/docs/sharing-configurations#using-a-shareable-config)。
+For more information on configuring Prettier, please refer to [Prettier - Using a Shareable Config](https://prettier.io/docs/sharing-configurations#using-a-shareable-config).
+
+## FAQ
+
+### Error in esbenp.prettier-vscode extension: ESM not supported
+
+After configuring in `package.json`, the VSCode extension may report an error like:
+
+```log
+Error [ERR_REQUIRE_ESM]: require() of ES Module ...\prettier-config.mjs not supported.
+Instead change the require of ...\prettier-config.mjs to a dynamic import() which is available in all CommonJS modules.
+```
+
+According to the suggestion in [prettier-vscode#3298](https://github.com/prettier/prettier-vscode/issues/3298#issuecomment-1927472222), installing `prettier` as a dependency in your project can solve this. Alternatively, set `prettier.prettierPath` in VSCode to the globally installed prettier.

@@ -1,44 +1,48 @@
 # @enihsyou/editor-config
 
-这是一个可共享的 EditorConfig 配置，用于统一项目中的编码风格。
+<p style="text-align: center;">
+  <a href="README.md">English</a> •
+  <a href="README.zh-CN.md">简体中文 (Simplified Chinese)</a>
+</p>
 
-## 安装
+This is a shareable EditorConfig configuration for unifying code style in your project.
 
-请在项目的终端中运行以下命令安装发布版本。
+## Installation
+
+Please run the following command in your project terminal to install the published version:
 
 ```shell
 npm install --save-dev @enihsyou/editor-config
 ```
 
-或者运行以下命令引用 GitHub 上的最新版本。
+Or run the following command to reference the latest version from GitHub:
 
 ```shell
 pnpm add --save-dev github:enihsyou/shared-config#path:/packages/editor-config
 ```
 
-或者直接从 GitHub 上以文件形式下载最新版本。
+Or directly download the latest version as a file from GitHub:
 
 ```shell
 curl -L https://raw.githubusercontent.com/enihsyou/shared-config/main/packages/editor-config/.editorconfig -o .editorconfig
 ```
 
-## 补充说明
+## Additional Notes
 
-一般而言包管理工具会自动运行 `postinstall` 命令将 `.editorconfig` 文件复制到项目根目录中，
-如果它因为[安全原因]没有执行，你需要手动复制文件，或者执行 `install.mjs` 让脚本帮你复制。
+Generally, package managers will automatically run the `postinstall` command to copy the `.editorconfig` file to your project root directory. If it does not execute due to [security reasons], you need to manually copy the file or run `install.mjs` to let the script help you copy it.
 
-- 从包中复制 `.editorconfig` 文件到你的当前目录：
+- Copy `.editorconfig` from the package to your current directory:
 
 ```shell
 cp node_modules/@enihsyou/editor-config/.editorconfig .
 ```
 
-- 执行 `install.mjs` 脚本，复制到你的当前目录：
+- Run the `install.mjs` script to copy to your current directory:
 
 ```shell
 node node_modules/@enihsyou/editor-config/install.mjs
 ```
 
-有关如何配置 EditorConfig 的更多信息，请访问 [https://editorconfig.org](https://editorconfig.org)。
+For more information on how to configure EditorConfig, please visit [https://editorconfig.org](https://editorconfig.org).
 
-[安全原因]: https://pnpm.io/cli/add#--allow-build
+[security reasons]: https://pnpm.io/cli/add#--allow-build
