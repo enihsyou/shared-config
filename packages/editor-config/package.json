@@ -1,6 +1,6 @@
 {
     "name": "@enihsyou/editor-config",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A shareable .editorconfig file based on enihsyou's preferences",
     "keywords": [
         "editorconfig"
@@ -20,8 +20,8 @@
         "directory": "packages/editor-config"
     },
     "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org/"
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
     },
     "scripts": {
         "postinstall": "node install.mjs"
