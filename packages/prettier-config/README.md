@@ -31,10 +31,13 @@ After installation, add a key in your `package.json` file to apply this configur
 }
 ```
 
-If you want to extend this configuration, you can do so in `prettier.config.mjs` as needed:
+If you want to extend this configuration, you can do so in `prettier.config.mjs` as needed.
+
+- If `@enihsyou/editor-config` is used, `import { withEditorConfig as enihsyou } from "@enihsyou/editor-config"` is preferred.
+- If `@enihsyou/editor-config` is not used, `import { withoutEditorConfig as enihsyou } from "@enihsyou/prettier-config"` is preferred.
 
 ```javascript
-import enihsyou from "@enihsyou/prettier-config";
+import { withoutEditorConfig as enihsyou } from "@enihsyou/prettier-config";
 
 /**
  * @see https://prettier.io/docs/configuration

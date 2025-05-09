@@ -31,10 +31,13 @@ pnpm add --save-dev github:enihsyou/shared-config#path:/packages/prettier-config
 }
 ```
 
-如果想基于本配置进行修改，可以在 `prettier.config.mjs` 中根据需要扩展
+如果想基于本配置进行修改，可以在 `prettier.config.mjs` 中根据需要扩展。
+
+- 如果使用了 `@enihsyou/editor-config`，建议使用 `import { withEditorConfig as enihsyou } from "@enihsyou/editor-config"`。
+- 如果没有使用 `@enihsyou/editor-config`，建议使用 `import { withoutEditorConfig as enihsyou } from "@enihsyou/prettier-config"`。
 
 ```javascript
-import enihsyou from "@enihsyou/prettier-config";
+import { withoutEditorConfig as enihsyou } from "@enihsyou/prettier-config";
 
 /**
  * @see https://prettier.io/docs/configuration

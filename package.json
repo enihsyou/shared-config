@@ -11,7 +11,6 @@
         "node": ">=20",
         "pnpm": ">=10"
     },
-    "prettier": "@enihsyou/prettier-config",
     "devDependencies": {
         "@enihsyou/prettier-config": "workspace:*",
         "@enihsyou/eslint-config": "workspace:*",

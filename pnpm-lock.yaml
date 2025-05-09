@@ -21,7 +21,7 @@ importers:
         specifier: 3.5.3
         version: 3.5.3
 
-  packages/editorconfig: {}
+  packages/editor-config: {}
 
   packages/eslint-config:
     dependencies:
