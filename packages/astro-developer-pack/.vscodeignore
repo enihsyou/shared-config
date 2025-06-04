@@ -1,0 +1,5 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+update-readme.js
+README.zh-CN.md

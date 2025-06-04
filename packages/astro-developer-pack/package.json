@@ -1,0 +1,30 @@
+{
+  "name": "astro-developer-pack",
+  "displayName": "Astro Developer Pack",
+  "description": "Recommended extensions for Astro developers",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "scripts": {
+    "package": "vsce package --allow-missing-repository --skip-license",
+    "update-readme": "node update-readme.js"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "publisher": "enihsyou",
+  "license": "MIT",
+  "extensionPack": [
+    "astro-build.astro-vscode",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "mattpocock.ts-error-translator",
+    "mikestead.dotenv",
+    "oven.bun-vscode",
+    "unifiedjs.vscode-mdx",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
