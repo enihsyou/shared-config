@@ -1,40 +1,35 @@
 # Astro Developer Pack
 
-<p align="center">
-  <a href="README.md">English</a> •
-  <a href="README.zh-CN.md">简体中文 (Simplified Chinese)</a>
-</p>
-
-This is a set of VSCode extensions that I recommend installing for Astro project development.
+This is a set of VSCode extensions that I (enihsyou) recommend installing for Astro project development.
 
 ## How to Use
 
-This extension pack has a strong personal touch, so it uses a private publishing mode and will not be published to the VSCode Marketplace.
-
-Use vsce to package it into a vsix file and install it manually.
+This extension pack is highly opinionated and is best used in a private publishing mode.
+However, until VSCode supports [private extension repositories](https://github.com/microsoft/vscode/issues/21839), it will be published with public visibility to the VSCode Marketplace for easy synchronization across multiple devices and automatic updates.
 
 ```shell
 npm install -g @vscode/vsce
-# npm run package
-vsce package --allow-missing-repository --skip-license
-code --install-extension astro-developer-pack-0.0.1.vsix
+vsce package --skip-license
+vsce publish --skip-license
+code --install-extension astro-developer-pack-*.vsix
 ```
 
 ## Extension List
 
 <!-- EXTENSIONS_TABLE_START -->
-| Extension Name                 | Badges |
-| ------------------------------ | --------------------------------------------------------------------------- |
-| Astro Vscode                   | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/astro-build.astro-vscode)](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/astro-build.astro-vscode) |
-| Vscode Markdownlint            | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/davidanson.vscode-markdownlint)](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/davidanson.vscode-markdownlint) |
-| Vscode Eslint                  | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/dbaeumer.vscode-eslint)](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/dbaeumer.vscode-eslint) |
-| Editorconfig                   | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/editorconfig.editorconfig)](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/editorconfig.editorconfig) |
-| Prettier Vscode                | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/esbenp.prettier-vscode)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/esbenp.prettier-vscode) |
-| Ts Error Translator            | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/mattpocock.ts-error-translator)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/mattpocock.ts-error-translator) |
-| Dotenv                         | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/mikestead.dotenv)](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/mikestead.dotenv) |
-| Bun Vscode                     | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/oven.bun-vscode)](https://marketplace.visualstudio.com/items?itemName=oven.bun-vscode) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/oven.bun-vscode) |
-| Vscode Mdx                     | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/unifiedjs.vscode-mdx)](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/unifiedjs.vscode-mdx) |
-| Pretty Ts Errors               | [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/yoavbls.pretty-ts-errors)](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/yoavbls.pretty-ts-errors) |
+| Extension ID                                                                                                            | Choose Reason                                                                               | Badges                                                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| astro-build.astro-vscode [🔗](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)             | Provides syntax highlighting and IntelliSense for Astro files.                              | ![downloads](https://img.shields.io/vscode-marketplace/d/astro-build.astro-vscode.svg) ![rating](https://img.shields.io/vscode-marketplace/r/astro-build.astro-vscode.svg)             |
+| davidanson.vscode-markdownlint [🔗](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint) | Helps maintain consistent Markdown style with linting.                                      | ![downloads](https://img.shields.io/vscode-marketplace/d/davidanson.vscode-markdownlint.svg) ![rating](https://img.shields.io/vscode-marketplace/r/davidanson.vscode-markdownlint.svg) |
+| dbaeumer.vscode-eslint [🔗](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                 | Integrates ESLint for JavaScript and TypeScript linting.                                    | ![downloads](https://img.shields.io/vscode-marketplace/d/dbaeumer.vscode-eslint.svg) ![rating](https://img.shields.io/vscode-marketplace/r/dbaeumer.vscode-eslint.svg)                 |
+| editorconfig.editorconfig [🔗](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)           | Supports EditorConfig files to maintain consistent coding styles. Works well with Prettier. | ![downloads](https://img.shields.io/vscode-marketplace/d/editorconfig.editorconfig.svg) ![rating](https://img.shields.io/vscode-marketplace/r/editorconfig.editorconfig.svg)           |
+| esbenp.prettier-vscode [🔗](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)                 | Formats code using Prettier, ensuring a consistent code style.                              | ![downloads](https://img.shields.io/vscode-marketplace/d/esbenp.prettier-vscode.svg) ![rating](https://img.shields.io/vscode-marketplace/r/esbenp.prettier-vscode.svg)                 |
+| jock.svg [🔗](https://marketplace.visualstudio.com/items?itemName=jock.svg)                                             | Support editing and previewing SVG files directly in VS Code.                               | ![downloads](https://img.shields.io/vscode-marketplace/d/jock.svg.svg) ![rating](https://img.shields.io/vscode-marketplace/r/jock.svg.svg)                                             |
+| mattpocock.ts-error-translator [🔗](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator) | Learn TypeScript on the way with writing code.                                              | ![downloads](https://img.shields.io/vscode-marketplace/d/mattpocock.ts-error-translator.svg) ![rating](https://img.shields.io/vscode-marketplace/r/mattpocock.ts-error-translator.svg) |
+| mikestead.dotenv [🔗](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)                             | Provides syntax highlighting for .env files.                                                | ![downloads](https://img.shields.io/vscode-marketplace/d/mikestead.dotenv.svg) ![rating](https://img.shields.io/vscode-marketplace/r/mikestead.dotenv.svg)                             |
+| oven.bun-vscode [🔗](https://marketplace.visualstudio.com/items?itemName=oven.bun-vscode)                               | Use Bun as the JavaScript runtime for Astro.                                                | ![downloads](https://img.shields.io/vscode-marketplace/d/oven.bun-vscode.svg) ![rating](https://img.shields.io/vscode-marketplace/r/oven.bun-vscode.svg)                               |
+| unifiedjs.vscode-mdx [🔗](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)                     | Adds support for MDX files, allowing JSX in Markdown.                                       | ![downloads](https://img.shields.io/vscode-marketplace/d/unifiedjs.vscode-mdx.svg) ![rating](https://img.shields.io/vscode-marketplace/r/unifiedjs.vscode-mdx.svg)                     |
+| yoavbls.pretty-ts-errors [🔗](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)             | Enhances TypeScript error messages with better formatting and readability.                  | ![downloads](https://img.shields.io/vscode-marketplace/d/yoavbls.pretty-ts-errors.svg) ![rating](https://img.shields.io/vscode-marketplace/r/yoavbls.pretty-ts-errors.svg)             |
 <!-- EXTENSIONS_TABLE_END -->
 
 > Only includes additionally required extensions; essential extensions are not listed here.
@@ -57,3 +52,14 @@ Therefore, this extension pack was created. Disabling the extension pack for a w
 **Q**: Why not enable all extensions directly, but selectively enable them?
 
 **A**: Simply put, for performance and experience. Although VSCode extensions now have rich lazy-loading activation conditions, there are still plugins that will automatically activate unconditionally when enabled. Also, some plugins are only needed at specific times. For example, not all projects will repeatedly use the `Docker` extension, but it automatically activates when it detects a Dockerfile in the workspace, then creates a toolbar, tries to connect to the Docker Host, and even pops up a notification if the connection fails. I don't want this kind of interruption.
+
+**Q**: How to uninstall this extension pack without uninstalling all the extensions it references?
+**A**: If you uninstall the extension pack directly in VSCode, it will also uninstall all the extensions it references. This is generally not the desired behavior, so this extension pack only includes additionally required extensions and excludes commonly used ones.
+Currently, VSCode [does not and will not provide](https://github.com/microsoft/vscode/issues/169109) a feature to uninstall an extension pack without uninstalling its bundled extensions, but there is a manual workaround.
+
+1. Delete the `$HOME/.vscode/extensions/enihsyou.astro-developer-pack-0.0.1` folder
+2. Remove the entry for the extension pack from `$HOME/.vscode/extensions/extensions.json`
+
+## Other Information
+
+- Icon drawn using the [Method Draw](https://github.com/methodofaction/Method-Draw) tool.

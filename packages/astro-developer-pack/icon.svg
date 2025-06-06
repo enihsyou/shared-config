@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st2 {
+        fill: #194165;
+      }
+
+      .st3 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st3, .st4 {
+        stroke-width: 20px;
+      }
+
+      .st4 {
+        fill: #36c;
+        stroke: #36c;
+      }
+
+      .st1 {
+        font-family: Arial;
+        font-size: 139.5px;
+        font-weight: 700;
+      }
+
+      .st1, .st5 {
+        isolation: isolate;
+      }
+
+      .st7 {
+        fill: url(#gradient);
+      }
+    </style>
+    <linearGradient id="gradient" x1="-1227.3" y1="-382.3" x2="-1221.2" y2="-385.4" gradientTransform="translate(33575.4 9976.6) scale(27.2 24.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d83333"/>
+      <stop offset="1" stop-color="#f041ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="svg_1" class="st2" x="16" y="16" width="992" height="992" rx="248" ry="248"/>
+  <g id="svg_40">
+    <g id="svg_2">
+      <g id="svg_3">
+        <rect id="svg_4" class="st4" x="522.3" y="196.8" width="146.2" height="146.2" rx="10.3" ry="10.3"/>
+        <path id="svg_5" class="st3" d="M550.4,271.7l28.9,32,61-67.5"/>
+      </g>
+    </g>
+    <g id="svg_28">
+      <g id="svg_27">
+        <rect id="svg_25" class="st4" x="749.7" y="424.2" width="146.2" height="146.2" rx="10.3" ry="10.3"/>
+        <path id="svg_26" class="st3" d="M777.8,499l28.9,32,61-67.5"/>
+      </g>
+    </g>
+    <g id="svg_33">
+      <g id="svg_32">
+        <rect id="svg_30" class="st4" x="749.7" y="197.8" width="146.2" height="146.2" rx="10.3" ry="10.3"/>
+        <path id="svg_31" class="st3" d="M777.8,272.6l28.9,32,61-67.5"/>
+      </g>
+    </g>
+    <g id="svg_38">
+      <g id="svg_37">
+        <rect id="svg_35" class="st4" x="522.3" y="424.2" width="146.2" height="146.2" rx="10.3" ry="10.3"/>
+        <path id="svg_36" class="st3" d="M550.4,499l28.9,32,61-67.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="svg_6">
+    <path id="svg_7" class="st0" d="M237.1,509.6c-17-15.6-22-48.3-14.9-71.9,12.3,14.9,29.3,19.7,47,22.3,27.2,4.1,54,2.6,79.3-9.9,2.9-1.4,5.6-3.3,8.7-5.2,2.4,6.9,3,13.8,2.2,20.9-2,17.2-10.6,30.6-24.2,40.7-5.5,4-11.2,7.6-16.9,11.5-17.3,11.7-22,25.4-15.5,45.4.2.5.3,1,.6,2.2-8.8-4-15.3-9.7-20.2-17.3-5.2-8-7.7-16.8-7.8-26.4,0-4.7,0-9.4-.7-13.9-1.5-11.2-6.8-16.2-16.7-16.5-10.2-.3-18.2,6-20.3,15.9-.2.8-.4,1.5-.6,2.4h0v-.2Z"/>
+    <path id="svg_8" class="st7" d="M237.1,509.6c-17-15.6-22-48.3-14.9-71.9,12.3,14.9,29.3,19.7,47,22.3,27.2,4.1,54,2.6,79.3-9.9,2.9-1.4,5.6-3.3,8.7-5.2,2.4,6.9,3,13.8,2.2,20.9-2,17.2-10.6,30.6-24.2,40.7-5.5,4-11.2,7.6-16.9,11.5-17.3,11.7-22,25.4-15.5,45.4.2.5.3,1,.6,2.2-8.8-4-15.3-9.7-20.2-17.3-5.2-8-7.7-16.8-7.8-26.4,0-4.7,0-9.4-.7-13.9-1.5-11.2-6.8-16.2-16.7-16.5-10.2-.3-18.2,6-20.3,15.9-.2.8-.4,1.5-.6,2.4h0v-.2Z"/>
+    <path id="svg_9" class="st0" d="M140,433.7s50.4-24.6,100.9-24.6l38.1-117.9c1.4-5.7,5.6-9.6,10.3-9.6s8.9,3.9,10.3,9.6l38.1,117.9c59.9,0,100.9,24.6,100.9,24.6,0,0-85.6-233.2-85.8-233.7-2.5-6.9-6.6-11.3-12.2-11.3h-102.7c-5.6,0-9.6,4.4-12.2,11.3-.2.5-85.8,233.7-85.8,233.7h.1Z"/>
+  </g>
+  <g id="svg_43" class="st5">
+    <text class="st1" transform="translate(120 749.5)"><tspan x="0" y="0">EXTENSION</tspan></text>
+  </g>
+  <g id="svg_42" class="st5">
+    <text class="st1" transform="translate(330 908.1)"><tspan x="0" y="0">PACK</tspan></text>
+  </g>
+</svg>
