@@ -2,18 +2,6 @@
 
 This is a set of VSCode extensions that I (enihsyou) recommend installing for Astro project development.
 
-## How to Use
-
-This extension pack is highly opinionated and is best used in a private publishing mode.
-However, until VSCode supports [private extension repositories](https://github.com/microsoft/vscode/issues/21839), it will be published with public visibility to the VSCode Marketplace for easy synchronization across multiple devices and automatic updates.
-
-```shell
-npm install -g @vscode/vsce
-vsce package --skip-license
-vsce publish --skip-license
-code --install-extension astro-developer-pack-*.vsix
-```
-
 ## Extension List
 
 <!-- EXTENSIONS_TABLE_START -->
@@ -54,12 +42,16 @@ Therefore, this extension pack was created. Disabling the extension pack for a w
 **A**: Simply put, for performance and experience. Although VSCode extensions now have rich lazy-loading activation conditions, there are still plugins that will automatically activate unconditionally when enabled. Also, some plugins are only needed at specific times. For example, not all projects will repeatedly use the `Docker` extension, but it automatically activates when it detects a Dockerfile in the workspace, then creates a toolbar, tries to connect to the Docker Host, and even pops up a notification if the connection fails. I don't want this kind of interruption.
 
 **Q**: How to uninstall this extension pack without uninstalling all the extensions it references?
+
 **A**: If you uninstall the extension pack directly in VSCode, it will also uninstall all the extensions it references. This is generally not the desired behavior, so this extension pack only includes additionally required extensions and excludes commonly used ones.
 Currently, VSCode [does not and will not provide](https://github.com/microsoft/vscode/issues/169109) a feature to uninstall an extension pack without uninstalling its bundled extensions, but there is a manual workaround.
 
-1. Delete the `$HOME/.vscode/extensions/enihsyou.astro-developer-pack-0.0.1` folder
+1. Delete the `$HOME/.vscode/extensions/enihsyou.astro-developer-pack-<version>` folder
 2. Remove the entry for the extension pack from `$HOME/.vscode/extensions/extensions.json`
 
 ## Other Information
 
 - Icon drawn using the [Method Draw](https://github.com/methodofaction/Method-Draw) tool.
+
+- This extension pack is highly opinionated and is best used in a private publishing mode.
+However, until VSCode supports [private extension repositories](https://github.com/microsoft/vscode/issues/21839), it will be published with public visibility to the VSCode Marketplace for easy synchronization across multiple devices and automatic updates.

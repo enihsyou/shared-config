@@ -2,18 +2,6 @@
 
 这是一组我(enihsyou)进行 Astro 项目开发推荐安装的 VSCode 扩展。
 
-## 如何使用
-
-这个扩展包带有强烈的个人习惯色彩，最好使用私有发布模式。
-但在 VSCode 支持 [私有扩展库](https://github.com/microsoft/vscode/issues/21839) 之前，将以公开可见度发布到 VSCode Marketplace，方便在多设备同步和自动更新。
-
-```shell
-npm install -g @vscode/vsce
-vsce package --skip-license
-vsce publish --skip-license
-code --install-extension astro-developer-pack-*.vsix
-```
-
 ## 扩展清单
 
 <!-- EXTENSIONS_TABLE_START -->
@@ -54,12 +42,16 @@ code --install-extension astro-developer-pack-*.vsix
 **A**: 简单来说，为了性能和体验。虽然现在 VSCode 扩展的懒加载激活条件已经很丰富了，但任然有插件会在启用时无条件自动激活。以及有些插件只在特定时候需要，举个例子，并不是所有项目都会反复用到 `Docker` 扩展，但它检测到工作区中有 Dockerfile 时会自动启用，然后创建一个工具栏，同时尝试链接 Docker Host，并且连接失败时还会弹个提示，我不想要这种被打扰的体验。
 
 **Q**: 如何删除此扩展包，而不同时删除它引用的所有扩展？
+
 **A**: 如果直接在 VSCode 中删除扩展包，会同时删除它引用的所有扩展。这一般是非期望的行为，所以本扩展包只包含了额外需要的扩展，而排除了那些常用的扩展。
 目前 VSCode [还没有并且也不会提供](https://github.com/microsoft/vscode/issues/169109) 删除扩展包的功能，但有个手动操作的变通方式。
 
-1. 删除 `$HOME/.vscode/extensions/enihsyou.astro-developer-pack-0.0.1` 文件夹
+1. 删除 `$HOME/.vscode/extensions/enihsyou.astro-developer-pack-<version>` 文件夹
 2. 从 `$HOME/.vscode/extensions/extensions.json` 中删除扩展包的条目
 
 ## 其他信息
 
 - 图标使用 [Method Draw](https://github.com/methodofaction/Method-Draw) 工具绘制
+
+- 这个扩展包带有强烈的个人习惯色彩，最好使用私有发布模式。
+但在 VSCode 支持 [私有扩展库](https://github.com/microsoft/vscode/issues/21839) 之前，将以公开可见度发布到 VSCode Marketplace，方便在多设备同步和自动更新。
