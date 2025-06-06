@@ -2,14 +2,15 @@
   "name": "astro-developer-pack",
   "displayName": "Astro Developer Pack",
   "description": "Recommended extensions for Astro developers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.70.0"
   },
   "scripts": {
-    "package": "vsce package --skip-license",
-    "publish": "vsce publish --skip-license",
-    "icon-png": "magick icon.svg -background none -resize 1024x1024 icon.png",
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "icon-png": "magick -background transparent icon.svg icon.png",
+    "tiny-png": "pngquant --force --ordered --quality=30-50 icon.png --output icon.png",
     "update-readme": "node update-readme.js"
   },
   "categories": [
@@ -40,6 +41,7 @@
     "mikestead.dotenv",
     "oven.bun-vscode",
     "unifiedjs.vscode-mdx",
+    "ms-vscode.wordcount",
     "yoavbls.pretty-ts-errors"
   ],
   "extensionChooseReason": {
@@ -53,6 +55,7 @@
     "mikestead.dotenv": "Provides syntax highlighting for .env files.",
     "oven.bun-vscode": "Use Bun as the JavaScript runtime for Astro.",
     "unifiedjs.vscode-mdx": "Adds support for MDX files, allowing JSX in Markdown.",
+    "ms-vscode.wordcount": "Counts words in Markdown files, useful for content management.",
     "yoavbls.pretty-ts-errors": "Enhances TypeScript error messages with better formatting and readability."
   }
 }
