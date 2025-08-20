@@ -21,6 +21,9 @@ indent_style = tab               # 必须使用制表符
 [*.go]
 indent_style = tab               # Go 语言使用制表符
 
+[*.sh]
+indent_size = 2                  # https://google.github.io/styleguide/shellguide.html#indentation
+
 [*.{bat,cmd}]
 end_of_line = crlf               # Windows批处理文件使用CRLF行尾
 
