@@ -1,6 +1,6 @@
 {
     "name": "@enihsyou/prettier-config",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A shareable prettier config based on enihsyou's preferences",
     "keywords": [
         "prettier",
@@ -14,7 +14,11 @@
         "email": "enihsyou@gmail.com"
     },
     "type": "module",
-    "main": "index.js",
+    "main": "prettier-config.mjs",
+    "files": [
+        "prettier-config.mjs",
+        "with-editorconfig.mjs"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/enihsyou/shared-config.git",
