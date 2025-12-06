@@ -12,8 +12,8 @@
     "pnpm": ">=10"
   },
   "devDependencies": {
-    "@enihsyou/prettier-config": "workspace:*",
     "@enihsyou/eslint-config": "workspace:*",
+    "@enihsyou/prettier-config": "workspace:*",
     "eslint": "9.24.0",
     "prettier": "3.5.3"
   },
