@@ -13,25 +13,29 @@ const config = {
   printWidth: 120,
   // 适当留空更美观
   // tabWidth: 4, // 使用 Prettier 默认值
-  // 当然不使用 Tab
+  // （Prettier默认）当然不使用 Tab
   useTabs: false,
   // （Prettier默认）反正分号是自动添加的不费事
   semi: true,
   // （Prettier默认）双引号看习惯了，输入时允许少按 shift
   singleQuote: false,
+  // （Prettier默认）属性一行放多个更充分利用空间
+  singleAttributePerLine: false,
   // （Prettier默认）允许尾随逗号方便修改是好文明
   trailingComma: "all",
   // （Prettier默认）行内对象前后留空格更美观
   bracketSpacing: true,
   // （Prettier默认）半人工控制该怎么样就怎么样
   objectWrap: "preserve",
+  // （Prettier默认）半人工控制该怎么样就怎么样
+  proseWrap: "preserve",
   // （Prettier默认）和尾随逗号一样方便修改
   bracketSameLine: false,
-  // 加类型的时候自然有括号
-  arrowParens: "avoid",
+  // （Prettier默认）有括号方便展示 Inlay Hints
+  arrowParens: "always",
   // （Prettier默认）有必要时再写出来
   quoteProps: "as-needed",
-  // （Prettier默认）操作符换行后放在前面更美观
+  // 操作符换行后放在前面更美观
   experimentalOperatorPosition: "start",
   // （Prettier默认）不喜欢新样式，?:对齐多好看
   experimentalTernaries: false,
@@ -40,7 +44,7 @@ const config = {
     {
       // requirePragma 用来禁用格式化
       // https://github.com/prettier/prettier/issues/4547#issuecomment-1606712871
-      files: ["pnpm-lock.yaml", "pnpm-workspace.yaml"],
+      files: ["pnpm-lock.yaml"],
       options: { requirePragma: true },
     },
   ],
