@@ -1,20 +1,25 @@
 {
-    "name": "shared-config",
-    "description": "Shared configuration for various tools",
-    "author": {
-        "name": "enihsyou",
-        "email": "enihsyou@gmail.com"
-    },
-    "private": true,
-    "type": "module",
-    "engines": {
-        "node": ">=20",
-        "pnpm": ">=10"
-    },
-    "devDependencies": {
-        "@enihsyou/prettier-config": "workspace:*",
-        "@enihsyou/eslint-config": "workspace:*",
-        "eslint": "9.24.0",
-        "prettier": "3.5.3"
-    }
+  "name": "shared-config",
+  "description": "Shared configuration for various tools",
+  "author": {
+    "name": "enihsyou",
+    "email": "enihsyou@gmail.com"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  },
+  "devDependencies": {
+    "@enihsyou/prettier-config": "workspace:*",
+    "@enihsyou/eslint-config": "workspace:*",
+    "eslint": "9.24.0",
+    "prettier": "3.5.3"
+  },
+  "workspaces": [
+    "packages/editor-config",
+    "packages/eslint-config",
+    "packages/prettier-config"
+  ]
 }

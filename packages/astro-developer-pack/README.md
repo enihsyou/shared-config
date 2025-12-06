@@ -5,6 +5,7 @@ This is a set of VSCode extensions that I (enihsyou) recommend installing for As
 ## Extension List
 
 <!-- EXTENSIONS_TABLE_START -->
+
 | Extension ID                                                                                                            | Choose Reason                                                                               | Badges                                                                                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | astro-build.astro-vscode [🔗](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)             | Provides syntax highlighting and IntelliSense for Astro files.                              | ![downloads](https://img.shields.io/vscode-marketplace/d/astro-build.astro-vscode.svg) ![rating](https://img.shields.io/vscode-marketplace/r/astro-build.astro-vscode.svg)             |
@@ -19,6 +20,7 @@ This is a set of VSCode extensions that I (enihsyou) recommend installing for As
 | unifiedjs.vscode-mdx [🔗](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)                     | Adds support for MDX files, allowing JSX in Markdown.                                       | ![downloads](https://img.shields.io/vscode-marketplace/d/unifiedjs.vscode-mdx.svg) ![rating](https://img.shields.io/vscode-marketplace/r/unifiedjs.vscode-mdx.svg)                     |
 | ms-vscode.wordcount [🔗](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount)                       | Counts words in Markdown files, useful for content management.                              | ![downloads](https://img.shields.io/vscode-marketplace/d/ms-vscode.wordcount.svg) ![rating](https://img.shields.io/vscode-marketplace/r/ms-vscode.wordcount.svg)                       |
 | yoavbls.pretty-ts-errors [🔗](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)             | Enhances TypeScript error messages with better formatting and readability.                  | ![downloads](https://img.shields.io/vscode-marketplace/d/yoavbls.pretty-ts-errors.svg) ![rating](https://img.shields.io/vscode-marketplace/r/yoavbls.pretty-ts-errors.svg)             |
+
 <!-- EXTENSIONS_TABLE_END -->
 
 > Only includes additionally required extensions; essential extensions are not listed here.
@@ -33,9 +35,9 @@ This is a set of VSCode extensions that I (enihsyou) recommend installing for As
 2. [Manage Extension](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_disable-an-extension) can enable/disable extensions for the current project, but it needs to be repeated for each project of the same type.
 3. [Workspace Extension Recommendations](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions) are suitable for sharing single/same-type projects among teams, but they only suggest extensions and do not force installation and enablement.
 4. [Extension Packs](https://code.visualstudio.com/api/references/extension-manifest#extension-packs) are suitable for distributing a set of extension recommendations for specific usage scenarios. Combined with the previous methods, they can achieve rapid control of extension sets for similar projects.
-5. [Profiles](https://code.visualstudio.com/docs/configure/profiles) recommend a set of configuration files for each project type, managed completely independently, and are the most powerful way. However, it is difficult to synchronize profile forks with each other (e.g., wanting to apply an extension to all profiles *except* a specific one).
+5. [Profiles](https://code.visualstudio.com/docs/configure/profiles) recommend a set of configuration files for each project type, managed completely independently, and are the most powerful way. However, it is difficult to synchronize profile forks with each other (e.g., wanting to apply an extension to all profiles _except_ a specific one).
 
-I want to provide a recommended set of extensions for *project development*. When a user opens an Astro project in VSCode, for example, these extensions should be automatically enabled.
+I want to provide a recommended set of extensions for _project development_. When a user opens an Astro project in VSCode, for example, these extensions should be automatically enabled.
 Therefore, this extension pack was created. Disabling the extension pack for a workspace will synchronously disable all extensions listed in the pack, achieving batch management.
 
 **Q**: Why not enable all extensions directly, but selectively enable them?
@@ -55,4 +57,4 @@ Currently, VSCode [does not and will not provide](https://github.com/microsoft/v
 - Icon drawn using the [Method Draw](https://github.com/methodofaction/Method-Draw) tool.
 
 - This extension pack is highly opinionated and is best used in a private publishing mode.
-However, until VSCode supports [private extension repositories](https://github.com/microsoft/vscode/issues/21839), it will be published with public visibility to the VSCode Marketplace for easy synchronization across multiple devices and automatic updates.
+  However, until VSCode supports [private extension repositories](https://github.com/microsoft/vscode/issues/21839), it will be published with public visibility to the VSCode Marketplace for easy synchronization across multiple devices and automatic updates.

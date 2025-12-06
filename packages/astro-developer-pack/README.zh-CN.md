@@ -5,6 +5,7 @@
 ## 扩展清单
 
 <!-- EXTENSIONS_TABLE_START -->
+
 | Extension ID                                                                                                            | Choose Reason                                                                               | Badges                                                                                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | astro-build.astro-vscode [🔗](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode)             | Provides syntax highlighting and IntelliSense for Astro files.                              | ![downloads](https://img.shields.io/vscode-marketplace/d/astro-build.astro-vscode.svg) ![rating](https://img.shields.io/vscode-marketplace/r/astro-build.astro-vscode.svg)             |
@@ -19,6 +20,7 @@
 | unifiedjs.vscode-mdx [🔗](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)                     | Adds support for MDX files, allowing JSX in Markdown.                                       | ![downloads](https://img.shields.io/vscode-marketplace/d/unifiedjs.vscode-mdx.svg) ![rating](https://img.shields.io/vscode-marketplace/r/unifiedjs.vscode-mdx.svg)                     |
 | ms-vscode.wordcount [🔗](https://marketplace.visualstudio.com/items?itemName=ms-vscode.wordcount)                       | Counts words in Markdown files, useful for content management.                              | ![downloads](https://img.shields.io/vscode-marketplace/d/ms-vscode.wordcount.svg) ![rating](https://img.shields.io/vscode-marketplace/r/ms-vscode.wordcount.svg)                       |
 | yoavbls.pretty-ts-errors [🔗](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)             | Enhances TypeScript error messages with better formatting and readability.                  | ![downloads](https://img.shields.io/vscode-marketplace/d/yoavbls.pretty-ts-errors.svg) ![rating](https://img.shields.io/vscode-marketplace/r/yoavbls.pretty-ts-errors.svg)             |
+
 <!-- EXTENSIONS_TABLE_END -->
 
 > 只包含了额外需要的扩展，而那些必备的扩展不在此列
@@ -35,7 +37,7 @@
 4. [Extension Packs](https://code.visualstudio.com/api/references/extension-manifest#extension-packs) 适合针对使用场景分发一组扩展建议，结合前面几种方式可以实现快速为同类型项目控制扩展集。
 5. [Profiles](https://code.visualstudio.com/docs/configure/profiles) 为每类型项目建议一组配置文件，完全独立管理，是最强大的方式。但是配置文件分叉之后难以互相同步（比如想要将扩展应用于*除*某之外的所有配置文件）。
 
-我想要提供一份 *项目开发* 的建议扩展，当用户在 VSCode 中打开比如说 Astro 项目时，能够自动启用这些扩展。
+我想要提供一份 _项目开发_ 的建议扩展，当用户在 VSCode 中打开比如说 Astro 项目时，能够自动启用这些扩展。
 所以创建了此扩展包，当为工作区禁用扩展包会同步禁用包列出的所有扩展，实现批量管理。
 
 **Q**: 为什么不直接启用所有扩展，而是选择性地启用？
@@ -55,4 +57,4 @@
 - 图标使用 [Method Draw](https://github.com/methodofaction/Method-Draw) 工具绘制
 
 - 这个扩展包带有强烈的个人习惯色彩，最好使用私有发布模式。
-但在 VSCode 支持 [私有扩展库](https://github.com/microsoft/vscode/issues/21839) 之前，将以公开可见度发布到 VSCode Marketplace，方便在多设备同步和自动更新。
+  但在 VSCode 支持 [私有扩展库](https://github.com/microsoft/vscode/issues/21839) 之前，将以公开可见度发布到 VSCode Marketplace，方便在多设备同步和自动更新。

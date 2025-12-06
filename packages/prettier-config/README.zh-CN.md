@@ -37,7 +37,7 @@ pnpm add --save-dev github:enihsyou/shared-config#path:/packages/prettier-config
 - 如果没有使用 `@enihsyou/editor-config`，建议使用 `import { withoutEditorConfig as enihsyou } from "@enihsyou/prettier-config"`。
 
 ```javascript
-import { withoutEditorConfig as enihsyou } from "@enihsyou/prettier-config";
+import { enihsyou } from "@enihsyou/prettier-config";
 
 /**
  * @see https://prettier.io/docs/configuration

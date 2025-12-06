@@ -1,5 +1,5 @@
 ---
-mode: 'edit'
+mode: "edit"
 description: 'Translate README files from Chinese to English. Run with "Chat: Run Prompt" VSCode command.'
 ---
 
